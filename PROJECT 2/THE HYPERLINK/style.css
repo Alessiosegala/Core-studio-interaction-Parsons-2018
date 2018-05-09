@@ -1,0 +1,110 @@
+#mywrapper {
+	overflow: hidden;
+}
+
+.link {
+  color: #0F48AA;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.noshow {
+  display: none;
+}
+
+a {
+  color: #0F48AA;
+}
+
+a:visited {
+  color: #0F48AA;
+}
+
+
+#fabricworkingimage {
+   z-index: 5;
+   position: fixed;
+   top: 15%;
+   left: 15%;
+}
+
+#asleepimage {
+   z-index: 5;
+   position: fixed;
+   top: 30%;
+   left: 50%;
+}
+
+#tvbuyimage {
+   z-index: 5;
+   position: fixed;
+   top: 80%;
+   left: 30%;
+}
+
+#moneygoldimage {
+   z-index: 5;
+   position: fixed;
+   top: 45%;
+   left: 35%;
+}
+
+#nyclandimage {
+   z-index: 5;
+   position: fixed;
+   top: 70%;
+   left: 20%;
+}
+
+#billchangeimage {
+   z-index: 5;
+   position: fixed;
+   top: 73%;
+   left: 55%;
+}
+
+#clockbuyimage {
+   z-index: 5;
+   position: fixed;
+   top: 40%;
+   left: 60%;
+}
+
+#famousbrandsimage {
+   z-index: 5;
+   position: fixed;
+   top: 40%;
+   left: 10%;
+}
+
+#banskyimage {
+   z-index: 5;
+   position: fixed;
+   top: 20%;
+   left: 30%;
+}
+
+#swipingimage {
+   z-index: 5;
+   position: fixed;
+   top: 15%;
+   left: 82%;
+}
+
+#cart{
+   z-index: 6;
+   width: 150px;
+   position: fixed;
+    top: 39%;
+   left: 1065px;
+}
+
+@keyframes blinking {
+  50% { opacity: 0 }
+}
+
+.blink {
+  animation: blinking 1s linear infinite;
+}
